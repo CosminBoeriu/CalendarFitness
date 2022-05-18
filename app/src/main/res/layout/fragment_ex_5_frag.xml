@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ex_5_frag"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Legs/glutes Exercises"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:textColor="@color/albastruMarin"
+                    android:text="Split Squats"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step 1"
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="center"
+                            android:textColor="@color/rosu"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:src="@drawable/glutes1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:paddingLeft="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step 2"
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="center"
+                            android:textColor="@color/rosu"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:src="@drawable/glutes2"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:textColor="@color/albastruMarin"
+                    android:text="Glute ham raises"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step 1"
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="center"
+                            android:textColor="@color/rosu"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:src="@drawable/glutes3"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:paddingLeft="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step 2"
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="center"
+                            android:textColor="@color/rosu"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:src="@drawable/glutes4"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:textColor="@color/albastruMarin"
+                    android:text="Barbell Squat"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:paddingRight="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step 1"
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="center"
+                            android:textColor="@color/rosu"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:src="@drawable/glutes5"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:paddingLeft="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Step 2"
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="center"
+                            android:textColor="@color/rosu"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:src="@drawable/glutes6"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+include ':unity-classes'
+include ':gradle-wrapper'
+include ':app'
+rootProject.name = "CalendarFitness"

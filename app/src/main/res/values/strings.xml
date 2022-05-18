@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CalendarFitness</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textBiceps">The biceps is the muscle that receives the most attention from guys at the gym and from girls outside the gym. Make sure to treat your biceps the right way.</string>
+    <string name="textBack">Adding a back-focused workout to your fitness routine will not only improve your overall strength but can reduce back pain  and support great form and posture.</string>
+    <string name="textChest">Abs and chest workouts strengthen the muscles around the spine and improve posture as the body\'s weight is correctly distributed. Also, who wouldn\'t want a 6 pack?</string>
+    <string name="textCardio">Cardio training exercises are the ones that increase our heart rate the most, increase our resistance and improve our physical condition.</string>
+    <string name="textLegs">Leg workouts are an important aspect of a balanced, whole-body fitness routine that builds strength, speed, and stability. Guys, make sure not to skip leg day.</string>
+    <string name="textFullBody">If you\'re looking for weight loss and muscle definition, full body workouts are the way to go because the maximize calorie burn and strengthen all muscle groups.</string>
+    <string name="diet1.1">The ketogenic diet (or keto diet, for short) is a low carb, high fat diet that offers many health benefits.
+In fact, many studies show that this type of diet can help you lose weight and improve your health.
+Ketogenic diets may even have benefits against diabetes, cancer, epilepsy, and Alzheimer’s disease</string>
+</resources>

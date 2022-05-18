@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diets"
+                    android:textColor="@color/verde"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/alfa_slab_one"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Getting in shape doesn't come easy. Workouts alone do not assure the desired body transformation. Try the recommended diets"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keto Diet"
+                    android:textSize="18sp"
+                    android:textColor="@color/rosu"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="148dp"
+                            android:layout_height="148dp"
+                            android:src="@drawable/diet1"
+                            android:scaleType="fitStart"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The ketogenic diet is a very low carb, high fat diet that shares many similarities with the Atkins and low carb diets. It involves drastically reducing carbohydrate intake and replacing it with fat. This reduction in carbs puts your body into a metabolic state called ketosis."
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Omad Diet"
+                    android:textSize="18sp"
+                    android:textColor="@color/rosu"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="148dp"
+                            android:layout_height="148dp"
+                            android:src="@drawable/diet2"
+                            android:scaleType="fitStart"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The One Meal A Day (OMAD) diet is an extreme version of time-restricted eating, like intermittent fasting. However, unlike intermittent fasting which usually allows a four or eight-hour eating window, the OMAD diet has a one-hour eating window. So you fast for the other 23 hours of the day."/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:fontFamily="@font/alfa_slab_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vegan Diet"
+                    android:textSize="18sp"
+                    android:textColor="@color/rosu"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="148dp"
+                            android:layout_height="148dp"
+                            android:src="@drawable/diet3"
+                            android:scaleType="fitStart"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A vegan diet is a total vegetarian diet. Besides not eating meat, vegans don't eat food that comes from animals in any way. That includes milk products, eggs, honey, and gelatin (which comes from bones and other animal tissue)."/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
